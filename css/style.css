@@ -1,63 +1,37 @@
-@keyframes AutoSlide {
-	0% {
-		left: 0px; /*1ère image*/
-	}
-	15% {
-		left: 0px; /*idem pour attente*/
-	}
-	35% {
-		left: -150px; /*2ème image*/
-	}
-	50% {
-		left: -150px; /*idem pour attente*/
-	}
-	70% {
-		left: -300px; /*3ème image*/
-	}
-	85% {
-		left: -300px; /*idem pour attente*/
-	}
-	100% {
-		left: 0px; /*1ère image*/
-	}
+html, body {
+    position: relative;
+    height: 100%;
 }
 
-
-
-@keyframes AutoSlide {
-	0%, 15%, 100% {
-		left: 0px; /*1ère image*/
-	}
-	35%, 50% {
-		left: -150px; /*2ème image*/
-	}
-	70%, 85% {
-		left: -300px; /*3ème image*/
-	}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
 }
 
-#slideshow {
-	position: relative;
-	width: 150px;
-	height: 150px;
-	margin:  20px auto;
-	overflow: hidden;
-}
-#sContent li {
-	display: inline;
+.swiper-container {
+    width: 100%;
+    height: 100%;
 }
 
-#sContent {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 450px;
-	margin: 0;            
-	padding: 0;
-	
-	/*CSS3 keyframes animation*/
-	animation-name: AutoSlide;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
