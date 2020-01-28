@@ -126,4 +126,10 @@ footer{
     padding-top: 20px;
     background-color: lightgrey;
     text-align : center;
+    font-size : 125%;
+}
+
+h3{
+    font-size : 125%;
+    margin : 0;
 }
