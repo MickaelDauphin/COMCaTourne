@@ -96,6 +96,7 @@ a {
 
         .nav-container .nav-row .nav-controls {
             float: right;
+            font-size:125%;
         }
 
             .nav-container .nav-row .nav-controls a {
@@ -112,4 +113,17 @@ a {
 .row {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+.titre{
+    padding-top: 50px;
+}
+
+footer{
+    padding-top: 20px;
+    background-color: lightgrey;
+    text-align : center;
 }
