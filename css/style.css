@@ -35,6 +35,7 @@ body {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+
 }
 /*Navbar*/
 a {
@@ -112,4 +113,16 @@ a {
 .row {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.card{
+    z-index : -1
+}
+
+h1 {
+    text-align: center;
+}
+
+.titre {
+    padding-top: 50px;
 }
