@@ -40,19 +40,21 @@
         </div>
     </section>
     <section>
-        <div class="titre">
-            <h1>
-                Titre
-            </h1>
-        </div>
-        <div id="item" data-anijs="if: scroll, on: window, do: bounceInUp animated, before: scrollReveal">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/catourne.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+        <div id="item" data-anijs="if: scroll, on: window, do: bounceInLeft animated, before: scrollReveal">
+            <div class="titre">
+                <h1>
+                    Titre
+                </h1>
             </div>
         </div>
+            <div id="item" data-anijs="if: scroll, on: window, do: bounceInUp animated, before: scrollReveal">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/catourne.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
 
     </section>
 
@@ -61,7 +63,7 @@
     <!-- Javascript -->
     <!-- AniJS Core File -->
     <script src="anijs-min.js"></script>
-    script src="js/anijs.js"></script>
+    <script src="js/anijs.js"></script>
 
     <!-- ScrollReveal Helper -->
     <script src="helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>
