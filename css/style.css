@@ -1,11 +1,16 @@
+@font-face{
+    font-family : 'broadway_regular';
+    src : url('../police/broadway_regular.ttf') format('truetype');
+}
+
 html, body {
+    font-family : 'broadway_regular';
     position: relative;
     height: 100%;
 }
 
 body {
     background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
     margin: 0;
