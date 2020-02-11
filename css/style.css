@@ -133,3 +133,26 @@ h3{
     font-size : 125%;
     margin : 0;
 }
+
+.cercleRouge {
+    width: 500px;
+    height: 500px;
+    border-radius: 400px;
+    background: #ec716A;
+    float: right;
+}
+.cercleOrange {
+    width: 500px;
+    height: 500px;
+    border-radius: 400px;
+    background: #F49543;
+}
+.cercleBleu {
+    width: 500px;
+    height: 500px;
+    border-radius: 400px;
+    background: #384A70;
+    float : center;
+}
+
+
