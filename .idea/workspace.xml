@@ -1,43 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48ded9d6-2af0-4d52-992e-6189e60b26c9" name="Default Changelist" comment="" />
+    <list default="true" id="226fa378-176b-436e-b9e9-99d0a970254e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
-  <component name="ProjectId" id="1YcEikQ94OSfXQUwFu1vtSfYQAG" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YZNhKavRRxXtpRKUy5mawni26v" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../COMCaTourne-Candice" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="48ded9d6-2af0-4d52-992e-6189e60b26c9" name="Default Changelist" comment="" />
-      <created>1583233612086</created>
+      <changelist id="226fa378-176b-436e-b9e9-99d0a970254e" name="Default Changelist" comment="" />
+      <created>1583146274429</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583233612086</updated>
-      <workItem from="1583233613795" duration="973000" />
+      <updated>1583146274429</updated>
+      <workItem from="1583146276301" duration="2085000" />
+      <workItem from="1583223022881" duration="9796000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1583233610178">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583233610178" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1583223026693">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1583223026693" />
   </component>
 </project>
