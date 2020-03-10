@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Navbar -->
+<section>
+    <div class="first-container">
+        <div class="nav-container">
+            <div class="nav-row">
+                <!--<div class="nav-logo">
+                    <a href="#">
+                        Transparent to Solid Nav Row
+                    </a>
+                </div>-->
+                <div class="nav-controls">
+                    <a href="index.html">Exposition</a>
+                    <a href="JArc.html">Ecole Jeanne d'Arc</a>
+                    <a href="Michelet.html">Ecole Michelet</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div id="item" data-anijs="if: scroll, on: window, do: bounceInLeft animated, before: scrollReveal">
+        <div id="partie1" class="titre">
+            <h1>
+                Titre
+            </h1>
+
+            <div class="cercleRouge "></div>
+            <div class="cercleOrange"></div>
+            <div class="cercleBleu"></div>
+
+        </div>
+    </div>
+</section>
+</body>
+
+<footer data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal,after: removeAnim">
+    <div id="footer">
+        <h1>Retrouvez-nous</h1>
+        <br><h3><b>Horaires :</b></h3>
+        <br>Du 02/01 au 30/03/2020 de 11h à 18h.
+        <br>Fermé lundi, mardi, jeudi et vendredi.
+        <br>Vacances scolaires zone A : 11h > 18h
+        <br>tous les jours sauf le mardi.
+
+        <br><br>Du 01/04 au 26/06/2020 de 11h à 18h sauf le 1er mai.
+        <br>Fermé le mardi.
+
+        <br><br>Du 27/06 au 20/09/2020, tous les jours de 10h à 18h.
+
+        <br><br>Du 21/09 au 15/11/2020 de 11h à 18h sauf le 1er novembre.
+        <br>Fermé le mardi.
+
+        <br><br>Du 16/11 au 30/12/2020 de 11h à 18h sauf les jours fériés.
+        <br>Fermé lundi, mardi, jeudi et vendredi.
+        <br>Vacances scolaires zone A : 11h > 18h
+        <br>tous les jours sauf le mardi.
+        <br><br><h3><b>Prix :</b></h3>
+        <br>6€ pour les adultes et gratuit pour les enfants
+        <br><br><h3><b>Localisation :</b></h3>
+    </div>
+    <br><img src="img/localisation.png" width="40%"/>
+    <div>
+        <b>2 Rue Antoine Martin, 43000 Le Puy-en-Velay</b>
+    </div>
+</footer>
+
+</html>
+
+<!-- Javascript -->
+<!-- AniJS Core File -->
+<script src="anijs-min.js"></script>
+<script src="js/anijs.js"></script>
+
+<!-- ScrollReveal Helper -->
+<script src="js/anijs-helper-scrollreveal-min.js"></script>
+
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script src="js/style.js"></script>
