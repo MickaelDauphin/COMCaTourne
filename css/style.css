@@ -17,30 +17,33 @@ body {
     padding: 0;
 }
 
-.swiper-container {
-    width: 100%;
-    height: 100%;
-    z-index:  -1;
+/*Carousel index*/
+
+.first-container {
+    background-color: lightgray;
 }
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+.carousel-inner {
+    margin-top: -15px;
 }
+
+.carousel-inner img{
+    border-style: none double none double;
+    border-width: 25px;
+}
+
+.carousel-item{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(1);
+}
+
+
 /*Navbar*/
 a {
     display: inline-block;
@@ -61,15 +64,6 @@ a {
         text-decoration: none;
     }
 
-.first-container {
-    /*background: url(https://images.unsplash.com/photo-1488831861984-179da3647265?dpr=2&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    height: 100%;*/
-}
 
 .nav-container {
     height: 58px;
@@ -78,6 +72,7 @@ a {
     color: white;
     letter-spacing: 0.025em;
     transition: background-color 0.2s linear;
+    z-index: 2;
 }
 
     .nav-container.solid-nav {
@@ -89,7 +84,7 @@ a {
         max-width: 1200px;
         width: 100%;
         margin: 0 auto;
-        padding-right: 25px;
+        padding-right: 70px;
         padding-left: 25px;
         padding-top: 18px;
     }
@@ -102,6 +97,10 @@ a {
         .nav-container .nav-row .nav-controls {
             float: right;
             font-size:125%;
+        }
+
+        .nav-container .nav-row .nav-controls#index{
+            margin-top: 15px;
         }
 
             .nav-container .nav-row .nav-controls a {
